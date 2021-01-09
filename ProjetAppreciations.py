@@ -20,7 +20,7 @@ class Eleve:
 
     def Incoherence(self):
         #Il y a peut être d'autres incoherences à ajouter, je n'en ai pas trouvé pour l'instant
-        if self.Moyenne_Eleve<10:
+        if self.Moyenne_Eleve<=10:
             if self.Appreciation_2=="a été régulier tout au long" or self.Appreciation_2=="une progression remarquable":
                 self.Appreciation_2=='Vous pouvez progresser, vous en avez les capacités.'
 
@@ -37,11 +37,14 @@ class Eleve:
         #Ici on essaye de voir si le parcours de l'eleve est en dents de scie ou pas
         Parcours_Febrile=[n for n in L if n>4]
         Parcours_Febrile2=[n for n in L if n<-4]
-        if len(Parcours_Febrile)>=2 and len(Parcours_Febrile2)>=2:
+        print(L)
+        print(Parcours_Febrile,Parcours_Febrile2)
+        if len(Parcours_Febrile)>=1 and len(Parcours_Febrile2)>=1:
             self.Appreciation_2=" cependant dommage, vous avez manqué d'assiduité! Les résultats sont beacoup trop en dents de scie"
         else:
         #S'il n'est pas en dents de scie, alors on lui donne une appreciation adéquate
             somme=sum(L)
+            print(somme)
             for Reg in Liste_Regularite:
                 if Liste_Regularite[Reg][0]<=somme<Liste_Regularite[Reg][1]:
                     self.Appreciation_2=Reg
