@@ -3,8 +3,6 @@ Liste_Appreciations={"Trimestre très moyen":[0,4],"Trimestre moyen":[4,8],"Trim
 Liste_Regularite={"un parcours trop irregulier":[-10,-1],"a été régulier tout au long":[-1,1],"une progression remarquable":[1,10]}
 
 
-"""Il y a un début de code pour justement l'appréciation du début. J'essaye de faire maintenant la suite
-    Avec la régularité en analysant notamment la courbe de l'élève"""
 
 
 class Eleve:
