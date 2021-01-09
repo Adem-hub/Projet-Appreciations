@@ -3,7 +3,7 @@ Liste_Appreciations={"Trimestre très moyen":[0,4],"Trimestre moyen":[4,8],"Trim
 Liste_Regularite={"un parcours trop irregulier":[-10,-1],"a été régulier tout au long":[-1,1],"une progression remarquable":[1,10]}
 
 
-
+#Essayez avec Jules=Eleve([12,17,13,14]) par exemple. self.Tot represente l'appreciation totale Les virgules etc ne sont pas encore au point. Il reste quelques modifs.
 
 class Eleve:
     def __init__(self,ListeNotes):
