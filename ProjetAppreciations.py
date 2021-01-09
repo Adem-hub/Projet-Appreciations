@@ -1,4 +1,4 @@
-Liste_Appreciations={"Trimestre très moyen":[0,4],"Trimestre moyen":[4,8],"Trimestre satisfaisant":[8,12],"Bon trimestre":[12,16],"Très bon trimestre":[16,18],"Trimestre Remarquable":[18,20]}
+Liste_Appreciations={"Trimestre très moyen":[0,4],"Trimestre moyen":[4,8],"Trimestre satisfaisant":[8,12],"Bon trimestre":[12,16],"Très bon trimestre":[16,18],"Trimestre Remarquable":[18,20.1]}
 
 Liste_Regularite={"un parcours trop irregulier":[-10,-1],"a été régulier tout au long":[-1,1],"une progression remarquable":[1,10]}
 
